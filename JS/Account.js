@@ -1,4 +1,5 @@
 class Account {
+
     constructor(name, document) {
         this.id;
         this.name = name;
@@ -6,4 +7,5 @@ class Account {
         this.email;
         this.password;
     }
+    
 }
