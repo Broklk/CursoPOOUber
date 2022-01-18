@@ -5,6 +5,7 @@ public class UberVan extends Car {
 
     Map<String, Map<String,Integer>> typeCarAccepted;
     ArrayList<String> seatsMaterial;
+    // private Integer passenger;
     private Integer passenger;
 
     public UberVan(String license, Account driver, 
@@ -27,5 +28,10 @@ public class UberVan extends Car {
         } else {
             System.out.println("Necesitas asignar 6 pasajeros");
         }
+    }
+
+    @Override
+    void printDataCar() {
+        super.printDataCar();
     }
 }
